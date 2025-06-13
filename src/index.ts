@@ -2,4 +2,4 @@ import { config } from 'dotenv'
 
 config()
 
-console.log('Hello, modern typescript minimal template using Void0 stack.')
+console.log('Welcome to the modern TypeScript project using the Void0 stack!')
