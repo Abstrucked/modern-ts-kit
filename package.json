@@ -1,0 +1,29 @@
+{
+  "name": "modern-ts-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsup --watch --onSuccess 'node dist/index.js'",
+    "build": "tsup",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint src",
+    "format": "prettier --write .",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "abstrucked",
+  "license": "ISC",
+  "description": "A minimal, modern TypeScript project template with built-in development, testing, and build toolchain. Includes TypeScript, Vitest for testing, tsup for bundling, and code quality tools like Prettier and oxlint.",
+  "dependencies": {
+    "@types/node": "^24.0.1",
+    "dotenv": "^16.5.0",
+    "oxlint": "^1.1.0",
+    "prettier": "^3.5.3",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3",
+    "zod": "^3.25.64"
+  }
+}
