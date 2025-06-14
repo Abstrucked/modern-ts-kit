@@ -4,8 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsup --watch --onSuccess 'node dist/index.js'",
-    "build": "tsup",
+    "dev": "tsdown --watch src/index.ts",
+    "build": "tsdown",
     "start": "node dist/index.js",
     "typecheck": "tsc --noEmit",
     "lint": "oxlint src",
@@ -21,7 +21,7 @@
     "dotenv": "^16.5.0",
     "oxlint": "^1.1.0",
     "prettier": "^3.5.3",
-    "tsup": "^8.5.0",
+    "tsdown": "^0.12.7",
     "typescript": "^5.8.3",
     "vitest": "^3.2.3",
     "zod": "^3.25.64"

@@ -1,4 +1,4 @@
-import { defineConfig } from 'tsup'
+import { defineConfig } from 'tsdown'
 
 export default defineConfig({
   entry: ['src/index.ts'],
@@ -6,7 +6,6 @@ export default defineConfig({
   format: ['esm'],
   target: 'node20',
   sourcemap: true,
-  splitting: false,
   clean: true,
   dts: true, // if you want .d.ts files
 })
