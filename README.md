@@ -5,7 +5,7 @@ A minimal, modern TypeScript project template with built-in development, testing
 ## Features
 
 - 🚀 **Modern TypeScript** configuration targeting ES2022
-- 📦 **tsup** for fast, simple bundling
+- 📦 **tsdown** for fast, simple bundling
 - 🧪 **Vitest** for unit testing
 - 🔍 **Type-safe environment variables** with Zod
 - 🧹 **Code quality tools** including Prettier and oxlint
@@ -115,7 +115,7 @@ modern-ts-kit/
 ├── .env                # Environment variables (create this)
 ├── package.json        # Project metadata and dependencies
 ├── tsconfig.json       # TypeScript configuration
-└── tsup.config.ts      # Bundling configuration
+└── tsdown.config.ts      # Bundling configuration
 ```
 
 ## Environment Variables
@@ -129,8 +129,9 @@ You can add more variables by modifying the schema in `src/env.ts`.
 
 ## License
 
-ISC
+MIT
 
 ## Author
 
 abstrucked
+
